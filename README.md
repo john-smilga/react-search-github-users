@@ -37,9 +37,9 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 
 ## React Router Dom
 
-"react-router-dom": "^5.2.0",
+version used - "react-router-dom": "^5.2.0",
 
-- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+- [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
 
 - <Switch> renders the first child <Route> that matches
 - A <Route path="*"> always matches
@@ -105,6 +105,8 @@ In order for routing to work on netlify, redirects was added to the public folde
 [Redirects Blog Post](https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc)
 
 #### Warnings and create-react-app
+
+package.json
 
 ```js
 "build": "CI= react-scripts build",
