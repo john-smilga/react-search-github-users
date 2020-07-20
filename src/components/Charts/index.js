@@ -1,7 +1,6 @@
-import ExampleChart from "./ExampleChart";
-import Column3D from "./Column3D";
-import Bar3D from "./Bar3D";
+import Column from "./Column";
+import Bar from "./Bar";
 import Pie from "./Pie";
-import Doughnut2D from "./Doughnut2d";
+import Doughnut from "./Doughnut";
 
-export { ExampleChart, Pie, Column3D, Bar3D, Doughnut2D };
+export { Pie, Column, Bar, Doughnut };
