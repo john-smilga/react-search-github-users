@@ -26,7 +26,6 @@ const GithubProvider = ({ children }) => {
     const response = await axios(`${rootUrl}/users/${user}`).catch((err) =>
       console.log(err)
     );
-
     if (response) {
       setGithubUser(response.data);
       const { login, followers_url } = response.data;
@@ -72,6 +71,10 @@ const GithubProvider = ({ children }) => {
   }
   // error
   useEffect(checkRequests, []);
+  // get initial user
+  useEffect(() => {
+    searchGithubUser('john-smilga');
+  }, []);
   return (
     <GithubContext.Provider
       value={{
